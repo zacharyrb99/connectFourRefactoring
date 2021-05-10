@@ -6,6 +6,15 @@
   border: solid 1px #666;
 }
 
+#colors{
+  text-align: center;
+  margin-bottom: 25px;
+  width: 10%;
+  border: 2px solid black;
+  padding: 15px;
+}
+
+
 /* pieces are div within game table cells: draw as colored circles */
 
 .piece {
@@ -15,13 +24,6 @@
   border-radius: 50%;
 }
 
-.piece.p1 {
-  background-color: red;
-}
-
-.piece.p2 {
-  background-color: blue;
-}
 
 /* column-top is table row of clickable areas for each column */
 
